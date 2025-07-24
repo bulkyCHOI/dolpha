@@ -1,0 +1,91 @@
+# 민감한 정보가 포함된 디렉토리
+민감파일/
+*.json
+
+# Python 캐시 파일들
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyc
+*.pyo
+*.pyd
+
+# 가상환경
+venv/
+env/
+.env
+.venv
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 로그 파일
+*.log
+
+# 환경 변수 파일들
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 키 파일들
+*.key
+*.pem
+
+# 커버리지 리포트
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# 빌드 결과물
+build/
+dist/
+.next/
+out/
+
+# 임시 파일들
+*.tmp
+*.temp
+*~
+
+# Docker
+.dockerignore
+
+# 기타
+.DS_Store
+*.xlsx
+*.xls
+docs_cache/
